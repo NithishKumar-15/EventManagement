@@ -1,0 +1,50 @@
+.listEvent{
+    background-color: rgb(233, 40, 40);
+    font-size: 30px;
+    width:200px;
+    text-align: center;
+    cursor: pointer;
+    border-end-start-radius:20px ;
+    border-start-start-radius:20px ;
+}
+
+.createEvent{
+    background-color: rgb(9, 12, 201);
+    font-size: 30px;
+    width:200px;
+    text-align: center;
+    cursor: pointer;
+    border-start-end-radius:20px;
+    border-end-end-radius:20px ;
+}
+
+.event{
+    cursor: pointer;
+}
+
+
+.eventContent{
+    width:400px;
+}
+
+@media (max-width:384px) {
+    .listEvent{
+        background-color: rgb(233, 40, 40);
+        font-size: 24px;
+        width:170px;
+        text-align: center;
+        cursor: pointer;
+        border-end-start-radius:20px ;
+        border-start-start-radius:20px ;
+    }
+    
+    .createEvent{
+        background-color: rgb(9, 12, 201);
+        font-size: 24px;
+        width:170px;
+        text-align: center;
+        cursor: pointer;
+        border-start-end-radius:20px;
+        border-end-end-radius:20px ;
+    }
+}

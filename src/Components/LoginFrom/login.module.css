@@ -1,0 +1,10 @@
+.login{
+    width:45%;
+    height:fit-content;
+    padding:20px;
+    margin-top:150px;
+}
+
+.newUser{
+    cursor: pointer;
+}
